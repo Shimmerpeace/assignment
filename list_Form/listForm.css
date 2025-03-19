@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: burlywood;
+  }
+  #itemList {
+    margin-top: 20px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .item span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
